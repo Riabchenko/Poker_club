@@ -1,0 +1,70 @@
+<resources>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+
+
+    <string name="app_name">Менеджмент</string>
+    <string name="title_activity_main">CASH BACK</string>
+    <string name="action_settings">Настройки</string>
+    <string name="action_search">Выход</string>
+
+
+    <string-array name="screen_array">
+        <item>Главная</item>
+        <item>Столы</item>
+        <item>Клиенты</item>
+    </string-array>
+
+
+
+    <string name="screen_one">ClubFriends</string>
+    <string name="screen_two">Screen two</string>
+    <string name="screen_three">Screen three</string>
+
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="anketa_reg_1">АНКЕТА</string>
+    <string name="fio1">Фамилия</string>
+    <string name="fio2">Имя</string>
+    <string name="fio3">Отчество</string>
+    <string name="fio4">Дата рождения</string>
+    <string name="fio5">Телефон</string>
+    <string name="fio6">email</string>
+    <string name="fio7">Друг,который порекомендовал</string>
+    <string name="fio8">Фото</string>
+    <string name="fio11">Имя</string>
+    <string name="reg">РЕГИСТРАЦИЯ</string>
+    <string name="f1">Фамилия</string>
+    <string name="camera">camera</string>
+    <string name="text1">Large Text</string>
+    <string name="foto1">ФОТО</string>
+    <string name="search">Найти клиента по:</string>
+    <string name="by_id">id </string>
+    <string name="by_email">email</string>
+    <string name="by_fio">фамилии и имени</string>
+    <string name="by_tel">номеру телефона</string>
+    <string name="balance">Баланс</string>
+    <string name="textView12_">Введите номер телефона</string>
+    <string name="anketa">Анкета</string>
+    <string name="id">id</string>
+    <string name="familia">Фамилия</string>
+    <string name="imia">Имя</string>
+    <string name="otchestvo">Отчество</string>
+    <string name="dr">Дата рождения</string>
+    <string name="tel">Телефон</string>
+    <string name="email">email</string>
+    <string name="friend">Друг</string>
+    <string name="balance_">Баланс</string>
+    <string name="status">Статус</string>
+    <string name="friendclub">CASH BACK</string>
+    <string name="v_email">Введите email</string>
+</resources>

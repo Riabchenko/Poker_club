@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <gradient android:type="radial" android:endColor="#ff000000" android:startColor="#ffa2beca" android:gradientRadius="40"/>
+            <corners android:radius="100.0dip" />
+            <padding android:left="20dip" android:right="20dip" android:top="7dip" android:bottom="7dip"/>
+        </shape>
+    </item>
+
+    <item >
+        <shape>
+            <gradient android:type="radial" android:endColor="#ff7b8a91" android:startColor="#ff3a4246" android:gradientRadius="300"/>
+            <corners android:bottomRightRadius="5dp"
+                android:bottomLeftRadius="50dip"
+                android:topLeftRadius="5dip"
+                android:topRightRadius="50dp"/>
+            <padding android:left="20dip" android:right="20dip" android:top="7dip" android:bottom="7dip"/>
+        </shape>
+    </item>
+
+
+
+
+    <!--<item android:state_pressed="true">-->
+        <!--<shape>-->
+            <!--<gradient android:type="linear" android:endColor="#6699CC" android:startColor="#99CCFF" android:angle="90.0" />-->
+            <!--<corners android:radius="5.0dip" />-->
+            <!--<padding android:left="20dip" android:right="20dip" android:top="7dip" android:bottom="7dip"/>-->
+        <!--</shape>-->
+    <!--</item>-->
+    <!--<item>-->
+        <!--<shape>-->
+            <!--<gradient android:type="linear" android:endColor="#336699" android:startColor="#99CCFF" android:angle="90.0" />-->
+            <!--<corners android:radius="5.0dip" />-->
+            <!--<padding android:left="20dip" android:right="20dip" android:top="7dip" android:bottom="7dip"/>-->
+        <!--</shape>-->
+    <!--</item>-->
+
+
+</selector>

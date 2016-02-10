@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CASH BACK</string>
+    <string name="action_settings">Закрыть стол</string>
+    <string name="come">Добро пожаловать!</string>
+    <string name="table">Стол -</string>
+    <string name="add_id" />
+    <string name="signin">Найти</string>
+    <string name="cancel">Отмена</string>
+    <string name="parametr_seach">Chocolate order</string>
+    <string name="stop_pausa">Пауза/Стоп</string>
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_blue_grey_800">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scroll"
+            android:background="@color/gradient_radiel_backgraund">
+        <!--  сюда и вставляй свой код-->
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="ЗАКРЫТИЕ СТОЛОВ"
+            android:id="@+id/textView"
+            android:textSize="36dp"
+            android:gravity="center"
+            android:padding="40dp"
+            android:textColor="@android:color/background_light"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Показать столы,которые были в игре"
+            android:id="@+id/textView2"
+            android:textSize="28dp"
+            android:layout_weight="1"
+            android:textColor="@android:color/background_light"
+            android:gravity="center"
+            android:paddingTop="100dp" />
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="300dp"
+            android:id="@+id/tableRow"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" >
+
+        </TableRow>
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:visibility="invisible"
+            android:id="@+id/progress_2">
+        </ProgressBar>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal|bottom"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:id="@+id/next"
+                android:textColor="#FFFfFFFf"
+                android:background="@color/button0102"
+                android:drawableRight="@android:drawable/ic_media_play"
+                android:padding="15dp"
+                android:text="Далее"
+                android:onClick="game_table0" />
+        </LinearLayout>
+
+    </TableLayout>
+
+
+        </ScrollView>
+
+</LinearLayout>

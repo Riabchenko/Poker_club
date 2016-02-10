@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="right"
+    android:onClick="click_back">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scroll"
+        android:background="@color/gradient_radiel_backgraund">
+        <!--  сюда и вставляй свой код-->
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="40dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/background"
+            android:paddingBottom="5dp"
+            android:id="@+id/ln">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/v_email"
+                android:id="@+id/textView12"
+                android:textSize="28dp"
+                android:textColor="@android:color/background_light"
+                android:gravity="center_horizontal" />
+
+            <EditText
+                android:layout_width="400dp"
+                android:layout_height="match_parent"
+                android:inputType="textWebEmailAddress"
+                android:ems="10"
+                android:id="@+id/anketa_by_email"
+                android:background="@android:drawable/editbox_background_normal"
+                android:textSize="28dp"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:baselineAligned="false">
+
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/btn_alpha"
+                android:src="@drawable/abc_ic_ab_back_mtrl_am_alpha"
+                android:background="@color/button0102"
+                android:layout_marginTop="5dp"
+                android:cropToPadding="true"
+                android:adjustViewBounds="false"
+                android:gravity="left"
+                android:layout_weight="5"
+                android:onClick="click_back" />
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/textView17"-->
+                <!--android:layout_weight="30" />-->
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:visibility="invisible"
+                android:id="@+id/progress_email"
+                android:layout_weight="30">
+            </ProgressBar>
+
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/imageButton5"
+                android:src="@drawable/abc_ic_search_api_mtrl_alpha"
+                android:background="@color/button0102"
+                android:layout_marginTop="5dp"
+                android:cropToPadding="true"
+                android:adjustViewBounds="false"
+                android:gravity="right"
+                android:layout_weight="5"
+                android:onClick="by_email_review_onClic" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:id="@+id/button3"
+                android:onClick="editEm_onClic"
+                android:padding="10dp"
+                android:textColor="#ffffffff"
+                android:singleLine="false"
+                android:background="@color/background"
+                android:drawableRight="@drawable/a7"
+                android:text="Редактировать"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/anketa"
+                android:id="@+id/textView20"
+                android:textSize="36dp"
+                android:gravity="center"
+                android:padding="20dp"
+                android:textColor="@android:color/background_light"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+
+        <View
+        android:layout_width="wrap_content"
+        android:background="@drawable/shape_rect"
+        android:layout_height="3dp" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="30dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/id"
+                android:id="@+id/fio11"
+                android:textSize="24dp"
+                android:textColor="@android:color/background_light"
+                android:paddingRight="20dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/ank_email_id"
+                android:textSize="20dp" />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/familia"
+                android:id="@+id/textView14"
+                android:textSize="24dp"
+                android:textColor="@android:color/background_light"
+                android:paddingRight="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/ank_email_f"
+                android:textSize="20dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/imia"
+                android:id="@+id/textView31"
+                android:textSize="24dp"
+                android:textColor="@android:color/background_light"
+                android:paddingRight="20dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/ank_email_i"
+                android:textSize="20dp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/otchestvo"
+                android:id="@+id/textView41"
+                android:textSize="24dp"
+                android:textColor="@android:color/background_light"
+                android:paddingRight="20dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/ank_email_o"
+                android:textSize="20dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/dr"
+                android:id="@+id/textView51"
+                android:textSize="24dp"
+                android:textColor="@android:color/background_light"
+                android:paddingRight="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/ank_email_dr"
+                android:textSize="20dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/f2"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/tel"
+                android:id="@+id/textView61"
+                android:textSize="24dp"
+                android:textColor="@android:color/background_light"
+                android:paddingRight="20dp" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/f22_email"
+                android:layout_gravity="left"
+                android:gravity="left" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/f31"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/email"
+                android:id="@+id/textView71"
+                android:textSize="24dp"
+                android:textColor="@android:color/background_light"
+                android:paddingRight="20dp" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/f33_email"
+                android:layout_gravity="left"
+                android:gravity="left" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/friend"
+                android:id="@+id/textView81"
+                android:textSize="24dp"
+                android:textColor="@android:color/background_light"
+                android:paddingRight="20dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/ank_email_friend"
+                android:textSize="20dp" />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Дата регистрации"
+                android:id="@+id/textView18"
+                android:textSize="24dp"
+                android:textColor="@android:color/background_light"
+                android:paddingRight="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/ank_email_reg"
+                android:textSize="20dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/balance_"
+                android:id="@+id/textView13"
+                android:textSize="24dp"
+                android:textColor="@android:color/background_light"
+                android:paddingRight="20dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/ank_email_balance"
+                android:textSize="20dp" />
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/status"
+                android:id="@+id/textView11"
+                android:textSize="24dp"
+                android:textColor="@android:color/background_light"
+                android:paddingRight="20dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/ank_email_status"
+                android:textSize="20dp" />
+        </TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/foto1"
+            android:id="@+id/textView21"
+            android:gravity="center_horizontal"
+            android:textSize="24dp"
+            android:padding="30dp"
+            android:textColor="@android:color/background_light" />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:id="@+id/picture_email"
+            android:src="@drawable/a9" />
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView23" />
+        </TableRow>
+
+        <View
+            android:layout_width="wrap_content"
+            android:background="@drawable/shape_rect"
+            android:layout_height="3dp"
+            android:paddingBottom="10dp"/>
+
+
+    </TableLayout>
+
+</LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

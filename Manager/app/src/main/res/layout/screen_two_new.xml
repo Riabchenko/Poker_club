@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_blue_grey_800">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scroll"
+            android:background="@color/gradient_radiel_backgraund">
+        <!--  сюда и вставляй свой код-->
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/reg"
+            android:id="@+id/textView"
+            android:textSize="36dp"
+            android:gravity="center"
+            android:padding="40dp"
+            android:textColor="@android:color/background_light"
+            android:textStyle="bold" />
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/f1"
+                android:id="@+id/fio1"
+                android:textSize="28dp"
+                android:layout_weight="1"
+                android:textColor="@android:color/background_light" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/reg_f"
+                android:textSize="20dp"
+                android:paddingLeft="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/abc_popup_background_mtrl_mult" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/textView28"
+                android:layout_weight="1"
+                android:textColor="@android:color/background_light"
+                android:gravity="left"
+                android:textSize="10dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Имя*"
+                android:id="@+id/textView3"
+                android:textSize="28dp"
+                android:layout_weight="1"
+                android:textColor="@android:color/background_light" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/reg_i"
+                android:textSize="20dp"
+                android:paddingLeft="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/abc_popup_background_mtrl_mult" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" >
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/textView30"
+                android:layout_weight="1"
+                android:textColor="@android:color/background_light"
+                android:gravity="left"
+                android:textSize="10dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Отчество"
+                android:id="@+id/textView4"
+                android:textSize="28dp"
+                android:layout_weight="1"
+                android:textColor="@android:color/background_light" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/reg_o"
+                android:textSize="20dp"
+                android:paddingLeft="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/abc_popup_background_mtrl_mult" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/textView33"
+                android:layout_weight="1"
+                android:textColor="@android:color/background_light"
+                android:gravity="left"
+                android:textSize="10dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Дата рождения*"
+                    android:id="@+id/textView5"
+                    android:textSize="28dp"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/background_light" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:paddingRight="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:id="@+id/reg_dr"
+                    android:textSize="20dp"
+                    android:background="@drawable/abc_popup_background_mtrl_mult"
+                    android:layout_weight="1" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btn_dr"
+                    android:src="@android:drawable/ic_menu_today"
+                    android:onClick="on_click_dr"
+                    android:layout_weight="1"
+                    android:background="@color/background" />
+
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/textView22"
+                android:layout_weight="1"
+                android:textColor="@android:color/background_light"
+                android:gravity="left"
+                android:textSize="10dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/f2"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Телефон*"
+                android:id="@+id/textView6"
+                android:textSize="28dp"
+                android:layout_weight="1"
+                android:textColor="@android:color/background_light" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:ems="10"
+                android:id="@+id/reg_tel"
+                android:textSize="20dp"
+                android:paddingLeft="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/abc_popup_background_mtrl_mult" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/textView24"
+                android:layout_weight="1"
+                android:textColor="@android:color/background_light"
+                android:gravity="left"
+                android:textSize="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Пример: +380501112233"
+                android:id="@+id/textView25"
+                android:textSize="12dp"
+                android:layout_weight="1"
+                android:textColor="@android:color/background_light"
+                android:gravity="center_horizontal"
+                android:textIsSelectable="false" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/f3"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="email"
+                android:id="@+id/textView7"
+                android:textSize="28dp"
+                android:layout_weight="1"
+                android:textColor="@android:color/background_light" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textWebEmailAddress"
+                android:ems="10"
+                android:id="@+id/reg_email"
+                android:textSize="20dp"
+                android:paddingLeft="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/abc_popup_background_mtrl_mult" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/textView35"
+                android:layout_weight="1"
+                android:textColor="@android:color/background_light"
+                android:gravity="left"
+                android:textSize="10dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Друг"
+                android:id="@+id/textView8"
+                android:textSize="28dp"
+                android:layout_weight="1"
+                android:textColor="@android:color/background_light" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/reg_friend"
+                android:textSize="20dp"
+                android:paddingLeft="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/abc_popup_background_mtrl_mult"
+                android:inputType="phone"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/textView26"
+                android:layout_weight="1"
+                android:textColor="@android:color/background_light"
+                android:gravity="left"
+                android:textSize="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Вводится номер телефона друга. Пример: +380501112233"
+                android:id="@+id/textView27"
+                android:textSize="12dp"
+                android:layout_weight="1"
+                android:textColor="@android:color/background_light"
+                android:gravity="center_horizontal"
+                android:textIsSelectable="false" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/tableLayou"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/textView15"
+                android:textSize="28dp"
+                android:layout_weight="1"
+                android:text="Фото"
+                android:singleLine="true"
+                android:layout_gravity="center_vertical"
+                android:textColor="@android:color/background_light" />
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:id="@+id/reg_photo"
+                android:layout_column="1"
+                android:layout_weight="1" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/row"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/textView2"
+                android:textSize="28dp"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_reg_photo"
+                android:src="@android:drawable/ic_menu_add"
+                android:layout_weight="1"
+                android:onClick="new_Camera"
+                android:background="@drawable/abc_textfield_default_mtrl_alpha" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="300dp"
+            android:id="@+id/tableRow"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" >
+
+        </TableRow>
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:visibility="invisible"
+            android:id="@+id/progress_2">
+        </ProgressBar>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:text="Отмена"
+                android:id="@+id/btn_two_back"
+                android:onClick="click_back"
+                android:textColor="#FFFfFFFf"
+                android:background="@color/button0102"
+                android:drawableLeft="@drawable/abc_ic_ab_back_mtrl_am_alpha"
+                android:padding="15dp" />
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:visibility="invisible"
+                android:id="@+id/progressBar"
+                android:layout_weight="30" />
+
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:text="Добавить "
+                android:id="@+id/button"
+                android:onClick="registration_onClic"
+                android:textColor="#FFFfFFFf"
+                android:background="@color/button0102"
+                android:drawableRight="@drawable/ic_action_add_person"
+                android:padding="15dp" />
+        </LinearLayout>
+
+    </TableLayout>
+
+
+        </ScrollView>
+
+</LinearLayout>
